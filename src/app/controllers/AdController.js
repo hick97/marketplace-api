@@ -17,6 +17,9 @@ class AdController {
       }
     }
 
+    // Purchase filter
+    filters.purchasedBy = undefined
+
     // Title filter
     if (req.query.title) {
       filters.title = new RegExp(req.query.title, 'i')

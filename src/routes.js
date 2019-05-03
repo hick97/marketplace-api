@@ -46,5 +46,9 @@ routes.post(
   validate(validators.Purchase),
   handle(controllers.PurchaseController.store)
 )
+routes.get(
+  '/purchase/:id',
+  handle(controllers.PurchaseController.acceptPurchase)
+)
 
 module.exports = routes

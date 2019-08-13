@@ -1,10 +1,9 @@
 # marketplace-api
 Rest api for Marketplace business model
 
-## Executando a aplicação
+## Running the application
 
-**Obs: É recomendado a instalação do gerenciador de pacotes yarn.**
+**ps: Is recommended the Yarn package manager.**
   
-1. Execute o comando `yarn` no diretório raiz do projeto.
-2. Execute o comando `yarn start` no diretório raiz do projeto.
-3. Execute o comando `yarn dev` no diretório raiz do projeto para automatizar o processo de restart do servidor para eventuais mudanças.
+1. Run `yarn` or `npm install` command on project root folder.
+2. Run `yarn start` or `npm start` to start the application.
